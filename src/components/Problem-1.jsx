@@ -3,8 +3,6 @@ import React, { useState } from "react";
 const Problem1 = () => {
   const [show, setShow] = useState("all");
   const [allData, setAllData] = useState([]);
-  const [showActive, setShowActive] = useState([]);
-  const [showCompleted, setShowCompleted] = useState([]);
   const statusOrder = ["active", "completed", "all"];
 
   const handleClick = (val) => {
